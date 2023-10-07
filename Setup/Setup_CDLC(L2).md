@@ -2,9 +2,9 @@
 * To reset the password for a MongoDB user
 
 ```
-File Created by : Dhiraj
-Gmail  : dhiraj.datascientist
-Github : dhirajdatascientist
+📁 File Created by : Dhiraj
+📧 Gmail  : dhiraj.datascientist@gmail.com 
+👨‍💻 Github : dhirajdatascientist
 ```
 
 # Steps
