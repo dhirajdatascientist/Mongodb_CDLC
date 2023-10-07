@@ -1,5 +1,6 @@
 # Problem Statement - IXTL 
 * To use the Zomato MongoDB database from the command line (CLI)
+* This is just dummmy Zomato DB for Testing
 
 ```
 File Created by : Dhiraj
@@ -47,12 +48,11 @@ Remember to replace `collectionName` with the name of the specific collection yo
 
 # ERROR:
 
-# If you are getting 'mongdb' is not recognized as an internal or external command, operable program or batch file.
+### If you are getting 'mongdb' is not recognized as an internal or external command, operable program or batch file.
 
 Then follow these steps:
 
-
-The error message "'mongdb' is not recognized as an internal or external command, operable program or batch file" suggests that the `mongo` command-line tool is not in your system's PATH, which means the command prompt doesn't know where to find the `mongo` command. To resolve this issue, you can do the following:
+* The error message "'mongdb' is not recognized as an internal or external command, operable program or batch file" suggests that the `mongo` command-line tool is not in your system's PATH, which means the command prompt doesn't know where to find the `mongo` command. To resolve this issue, you can do the following:
 
 1. **Check MongoDB Installation**: First, make sure you have MongoDB installed on your system.
 
