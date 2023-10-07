@@ -49,4 +49,3 @@ Github : dhirajdatascientist
 
 6. **Restart MongoDB**: If you've made changes to user passwords, you may need to restart your MongoDB server for the changes to take effect.
 
-After following these steps, the password for the specified MongoDB user should be reset to the new password you provided. Make sure to update any application configurations that use this MongoDB user with the new password.
