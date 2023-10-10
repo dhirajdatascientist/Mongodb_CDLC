@@ -1,3 +1,4 @@
+```
 import pymongo
 
 # MongoDB connection parameters
@@ -19,3 +20,4 @@ for document in all_documents:
 
 # Close the MongoDB connection
 client.close()
+```
