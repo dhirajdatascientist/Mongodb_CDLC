@@ -1,6 +1,6 @@
 
 # FoodApp
-* Creating a food booking app using Flask and MongoDB involves several steps, including setting up the project, creating the database schema, developing the Flask application, and designing the HTML templates. 
+* Creating a food booking app using Flask and MongoDB 
 
 **Step 1: Project Setup**
 
