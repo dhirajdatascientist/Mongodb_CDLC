@@ -1,4 +1,4 @@
-# MongoDB_CDLC by Dhiraj
+# MongoDB_CDLC
 ## RoadMap
 1. [Setup(L1)](Setup(L1).md)
 1. [Compass(L1)](Compass(L1).md)
