@@ -110,8 +110,29 @@ from flask import Flask, render_template, request, redirect, url_for
 from flask_pymongo import PyMongo
 
 app = Flask(__name__)
-app.config['MONGO_URI'] = 'mongodb://localhost/your-database-name'  # Update with your MongoDB URI
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/Infy'  # Update with your MongoDB URI
 mongo = PyMongo(app)
+
+# Create a collection for restaurants if it doesn't exist
+if 'restaurants' not in mongo.db.list_collection_names():
+    mongo.db.create_collection('restaurants')
+    mongo.db.restaurants.insert_many([
+        {
+            'name': 'Restaurant 1',
+            'cuisine': 'Italian',
+            'location': 'City 1',
+        },
+        {
+            'name': 'Restaurant 2',
+            'cuisine': 'Mexican',
+            'location': 'City 2',
+        },
+        # Add more restaurants as needed
+    ])
+
+# Create a collection for bookings if it doesn't exist
+if 'bookings' not in mongo.db.list_collection_names():
+    mongo.db.create_collection('bookings')
 
 # Define routes and views
 @app.route('/')
@@ -136,6 +157,7 @@ def book(restaurant_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 ```
 
 **Step 6: Run the Application**
